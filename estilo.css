@@ -26,39 +26,31 @@ header{ background: linear-gradient(mediumseagreen, darkkhaki );
                height: 100px;
 
 }
-
-nav{ background-color: darkkhaki;
-     height: 50px;
-     border-bottom: 1px solid black;
-     margin-left: auto;
-     margin-right: auto;
-     text-align: center;
-     display: flex;
-     flex-wrap:wrap ;
-     justify-content: center;
+nav ul{
+       display: flex;
+       justify-content: center;
+       text-decoration: none;
+       box-sizing: border-box;
+     }
      
+     nav ul li{
+       display: inline;
+       text-decoration: none;
+     }
      
-}
-nav ul {
-         position:relative;
-         width: 800px;
-         margin: 0;
-         display: inline-block;
-         
-}
-
-nav ul li{ 
-           list-style:none;
-           margin: left 5px;
-           position: relative;
-           top: 5px;
-           border: 1px solid mediumseagreen;
-           display: inline-block;
-           font-family:Arial, Helvetica, sans-serif;
-          
-          
-              
-}
+     nav ul li a{
+       list-style: none;
+       margin: 1rem;
+       background-color: whitesmoke;
+       padding: 0.3rem;
+       border-radius: 1rem;
+       text-decoration: none;
+     }
+     
+     nav ul li a:hover{
+       background-color: darkkhaki;
+       transform: scale(1.2);
+     }
 
 body { 
    background-color: rgb(163, 160, 160);
@@ -134,7 +126,21 @@ footer { text-align:center;
         background-color: darkkhaki;
 }      
 
+@media (max-width:768px) {
+       grid-template-areas: img img img ;
+          img { text-align: left;}
+          nav ul li { position: relative;}
+          h1 { text-align: center;}
+          h2{ text-align: center;}
+          .cas1{ text-align: center;}
+}
 
-
-
-        
+@media (max-width:992px) {
+          img{ 
+                 text-align: left;
+          }
+          nav ul li{ position: relative;}
+          h1{ text-align:center;}
+          h2{text-align:center;}
+          .cas1{text-align: center;}
+}        
