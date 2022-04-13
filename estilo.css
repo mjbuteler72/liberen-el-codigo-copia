@@ -127,7 +127,7 @@ footer { text-align:center;
 }      
 
 @media (max-width:768px) {
-       grid-template-areas: img img img ;
+       grid-template-areas img img img 
           img { text-align: left;}
           nav ul li { position: relative;}
           h1 { text-align: center;}
