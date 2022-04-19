@@ -1,0 +1,25 @@
+{
+  "name": "liberen-el-codigo-copia",
+  "version": "1.0.0",
+  "description": "mi proyecto programacion copia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/estilo.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjbuteler72/liberen-el-codigo-copia.git"
+  },
+  "author": "buteler maria jose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjbuteler72/liberen-el-codigo-copia/issues"
+  },
+  "homepage": "https://github.com/mjbuteler72/liberen-el-codigo-copia#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
