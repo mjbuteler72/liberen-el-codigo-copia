@@ -151,7 +151,7 @@ section{ background-color: rgba(115, 170, 43, 0.767);
                     width: 100%;
                     height: 70%;
                     padding: 1px;
-                    margin: 2px;
+                    margin: 1px;
                   }         
 .texto-casillas {
                  text-align:justify center;
@@ -161,7 +161,7 @@ section{ background-color: rgba(115, 170, 43, 0.767);
                  font-size:large;
                  margin:0;
                  font-family:Verdana, Geneva, Tahoma, sans-serif;
-                 position: absolute;
+                 position: relative;
               
 }
 .box__header{
